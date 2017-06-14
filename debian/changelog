@@ -1,3 +1,9 @@
+raspberrypi-ui-mods (1.20170614) stretch; urgency=medium
+
+  * Use Piboto font instead of Roboto throughout
+
+ -- Simon Long <simon@raspberrypi.org>  Wed, 14 Jun 2017 09:47:24 +0100
+
 raspberrypi-ui-mods (1.20170613) stretch; urgency=medium
 
   * Add postinst commands to disable lock on screensaver
