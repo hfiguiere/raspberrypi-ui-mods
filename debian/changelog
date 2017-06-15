@@ -1,3 +1,9 @@
+raspberrypi-ui-mods (1.20170615) stretch; urgency=medium
+
+  * Add plugins as recommends
+
+ -- Simon Long <simon@raspberrypi.org>  Thu, 15 Jun 2017 09:15:03 +0100
+
 raspberrypi-ui-mods (1.20170614) stretch; urgency=medium
 
   * Use Piboto font instead of Roboto throughout
