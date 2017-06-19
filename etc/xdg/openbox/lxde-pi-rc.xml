@@ -319,7 +319,6 @@
         <command>lxtask</command>
       </action>
     </keybind>
-  </keyboard>
     <!-- Keybindings for audio volume media keys -->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">

@@ -39,7 +39,7 @@ case "${1}" in
       CHANGED_FILES="${CHANGED_FILES} \
                      ${CONF_DIR}/lxsession/LXDE-pi/autokey.sh"
     fi
-    if dpkg --compare-versions "${2}" lt "1.20170614"; then
+    if dpkg --compare-versions "${2}" lt "1.20170616"; then
       CHANGED_FILES="${CHANGED_FILES} \
                      ${CONF_DIR}/openbox/lxde-pi-rc.xml"
     fi
@@ -80,7 +80,7 @@ case "${1}" in
         mkdir -p /home/pi/.config/autostart
         cat << EOF >> /home/pi/.config/autostart/pi-conf-backup.desktop
 [Desktop Entry]
-Exec=sh -c 'zenity --info --text="Your Raspbian system has been upgraded to the latest version.\n\nTo ensure compatibility with the new version, some configuration files have been overwritten -\nif you had customised your system, some of your changes may have been lost.\n\nYour original configuration files have been backed up and put in the directory /home/pi/oldconffiles\n" && rm ~/.config/autostart/pi-conf-backup.desktop'
+Exec=sh -c 'zenity --info --no-wrap --text="Your Raspbian system has been upgraded to the latest version.\n\nTo ensure compatibility with the new version, some configuration files have been overwritten -\nif you had customised your system, some of your changes may have been lost.\n\nYour original configuration files have been backed up and put in the directory /home/pi/oldconffiles\n" && rm ~/.config/autostart/pi-conf-backup.desktop'
 Type=Application
 EOF
         chown pi:pi /home/pi/.config
