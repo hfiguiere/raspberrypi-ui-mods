@@ -1,3 +1,9 @@
+raspberrypi-ui-mods (1.20170620) stretch; urgency=medium
+
+  * Fix postinstall date bugs.
+
+ -- Simon Long <simon@raspberrypi.org>  Tue, 20 Jun 2017 11:42:38 +0100
+
 raspberrypi-ui-mods (1.20170619) stretch; urgency=medium
 
   * Add workaround for Stretch Zenity bug in warning message
