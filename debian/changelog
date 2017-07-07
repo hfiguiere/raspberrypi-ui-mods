@@ -1,3 +1,9 @@
+raspberrypi-ui-mods (1.20170707) stretch; urgency=medium
+
+  * Make settings for all users, not just pi user
+
+ -- Simon Long <simon@raspberrypi.org>  Fri, 07 Jul 2017 14:06:32 +0100
+
 raspberrypi-ui-mods (1.20170620) stretch; urgency=medium
 
   * Fix postinstall date bugs.
