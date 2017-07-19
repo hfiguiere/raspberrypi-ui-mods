@@ -1,3 +1,9 @@
+raspberrypi-ui-mods (1.20170719) stretch; urgency=medium
+
+  * Add override for lxhotkey menu item
+
+ -- Simon Long <simon@raspberrypi.org>  Wed, 19 Jul 2017 14:17:45 +0100
+
 raspberrypi-ui-mods (1.20170707) stretch; urgency=medium
 
   * Make settings for all users, not just pi user
