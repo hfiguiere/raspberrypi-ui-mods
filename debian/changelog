@@ -1,3 +1,9 @@
+raspberrypi-ui-mods (1.20170725) stretch; urgency=medium
+
+  * Radio and check buttons synced between GTK2 and 3
+
+ -- Simon Long <simon@raspberrypi.org>  Tue, 25 Jul 2017 14:32:46 +0100
+
 raspberrypi-ui-mods (1.20170719) stretch; urgency=medium
 
   * Add override for lxhotkey menu item
